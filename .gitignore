@@ -1,0 +1,36 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.log
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CDK / Node
+node_modules/
+infra/cdk.out/
+infra/cdk.context.json
+infra/dist/
+*.d.ts.map
+
+# Env / Secrets
+.env
+.env.local
+*.pem
+.aws/
+
+# Build artifacts pushed elsewhere
+build/
+out/

@@ -1,0 +1,12 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/ecom-infra.ts",
+  "watch": {
+    "include": ["**"],
+    "exclude": ["README.md", "cdk*.json", "**/*.d.ts", "**/*.js", "tsconfig.json", "package*.json", "yarn.lock", "node_modules", "test"]
+  },
+  "context": {
+    "@aws-cdk/aws-apigatewayv2:useNewDefaultStage": true,
+    "@aws-cdk/aws-ecs:enableExecuteCommand": false,
+    "aws-cdk:enableDiffNoFail": true
+  }
+}
